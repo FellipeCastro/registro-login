@@ -15,7 +15,7 @@ body {
     box-shadow: 0 0 10px #00000050;
 }
 
-form fieldset {
+form {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -26,7 +26,7 @@ form fieldset {
     border-radius: 2.5px;
 }
 
-form fieldset legend {
+form h1 {
     color: #3171D8;
     text-align: center;
     font-size: 2em;
@@ -34,7 +34,7 @@ form fieldset legend {
     padding: 0 .5em;
 }
 
-form fieldset .input-container {
+form .input-container {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -43,16 +43,21 @@ form fieldset .input-container {
     gap: .5em;
 }
 
-form fieldset .input-container label {
+form .input-container label {
     color: #3171D8;
     font-weight: bold;
 }
 
-form fieldset .input-container input {
+form .input-container input {
     width: 100%;
     border: 1px solid #000;
-    padding: .7em;
+    padding: 1em;
+    border: 2px solid #3171D8;
     border-radius: 2.5px;
+}
+
+form .input-container input::placeholder {
+    color: #999;
 }
 
 .btn-submit {
@@ -70,4 +75,18 @@ form fieldset .input-container input {
 
 .btn-submit:hover {
     background-color: #3171D899;
+}
+
+form .erro label {
+    color: #ed4337;
+}
+
+form .erro input {
+    border-color: #ed4337;
+}
+
+form .erro span {
+    color: #ed4337;
+    font-size: .8em;
+    font-weight: bold;
 }
