@@ -10,13 +10,13 @@ function Login() {
 
                 <div className="input-container">
                     <label htmlFor="email">E-mail: </label>
-                    <input type="email" name="email" id="email" placeholder='Digite seu e-mail aqui' required />
+                    <input type="email" name="email" id="email" placeholder='Digite seu e-mail aqui' />
                     <span></span>
                 </div>
 
                 <div className="input-container">
                     <label htmlFor="password">Senha: </label>
-                    <input type="password" name="password" id="password" placeholder='Digite sua senha aqui' required />
+                    <input type="password" name="password" id="password" placeholder='Digite sua senha aqui' />
                     <sapn></sapn>
                 </div>
 
