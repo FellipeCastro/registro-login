@@ -40,10 +40,10 @@ form .input-container label {
 }
 
 form .input-container input {
+    background-color: #eee;
     width: 100%;
-    border: 1px solid #000;
     padding: 1em;
-    border: 2px solid #3171D8;
+    border: none;
     border-radius: 2.5px;
 }
 
